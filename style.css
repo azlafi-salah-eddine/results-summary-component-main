@@ -1,0 +1,153 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: row; 
+    
+  }
+  .c_circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 50px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));;
+  }
+  .right_div {
+    padding: 10px;
+    flex: 50%;
+    width: 390px;
+    background-color: white;
+    border-radius:0 20px 20px 0 ;
+    box-shadow: 10px 0px 30px -2px hsl(241, 100%, 89%);
+  }
+  
+  .left_div {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+    text-align: center;
+    width: 390px;
+    border-radius: 20px;
+    padding: 10px;
+    flex: 50%;
+  }
+  .ent1{
+    color: hsl(221, 100%, 96%);
+    font-size: large;
+  }
+  .ent2{
+    color: hsl(0, 0%, 100%);
+    font-size: x-large ;
+  }
+  .ent3{
+    color: hsl(241, 100%, 89%);
+    font-size: medium;
+  }
+  .n76{
+    font-size: xx-large;
+    font-size: 35px;
+    
+    
+    color: white;
+  }
+
+
+  
+  
+  .n100{
+    color:  hsl(0, 0%, 66%);
+  }
+  .fstar{
+    
+    
+  }
+  .estar{
+    color: hsl(224, 30%, 27%);
+    
+  }
+
+  .ent11{
+    color: hsl(224, 30%, 27%);
+    font-size: large;
+    padding: 15px 0px;
+    margin-left: 10px;
+    font-size: 22px;
+
+  }
+
+  .DD1{
+     display: flex;
+     justify-content: space-between;
+     color: hsl(0, 100%, 67%);
+     background-color:  hsl(0, 100%, 67% ,0.1);
+     margin:10px 10px;
+     padding: 15px 10px;
+     border-radius: 10px;
+    
+  }
+  .DD2{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%,0.1);
+    margin:10px 10px;
+    padding: 15px 10px;
+    border-radius: 10px;
+  }
+  .DD3{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(166, 100%, 37%);
+    background-color:hsl(166, 100%, 37%,0.1);
+    margin:10px 10px;
+    padding: 15px 10px;
+    border-radius: 10px;
+  }
+  .DD4{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%,0.1);
+    margin:10px 10px;
+    padding: 15px 10px;
+    border-radius: 10px;
+  }
+  .continue{
+    margin: 30px 0;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 320px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 3%, 94%);
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+  @media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
+  }
