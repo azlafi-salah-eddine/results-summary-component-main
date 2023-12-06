@@ -4,9 +4,11 @@
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
   }
-  body{
-    display: flex;
-    justify-content: center;
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   }
   .container {
     display: flex;
